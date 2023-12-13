@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Byleen Janet Roy</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Byleen Janet Roy</title>
+    <style>
+      /* Global Styles */
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #1b1b2f;
+        background-image: linear-gradient(to right, #1b1b2f70, #4c4c7f);
+        color: #fff;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #f7286d;
+        text-decoration: underline;
+      }
+
+      header {
+        padding: 100px 0;
+        text-align: center;
+        background-image: linear-gradient(to right, #dd728c44 0%, #f7286d 100%);
+        color: #fff;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+
+	#p0  { padding: 8px;
+  		margin: 45px;
+  
+  		/* other styling */
+  		background-image: linear-gradient(to right, #dd728c44 0%, #f7286d 100%);
+  		border-radius: 10px;
+  		color: rgb(255, 255, 255);
+  		font-family: Avenir;}
+
+
+	
+
+
+
+      header h1 {
+        margin: 0;
+        font-size: 4rem;
+        font-weight: 700;
+        text-shadow: 2px 2px 0px #333;
+      }
+
+      header h2 {
+        font-weight: 400;
+        font-size: 2rem;
+        margin: 0;
+        text-shadow: 2px 2px 0px #333;
+      }
+
+      header::after {
+        content: '';
+        background-image: url('https://www.transparenttextures.com/patterns/diagonal-noise.png');
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    
+      }
+
+      nav {
+        background-color: #00000086;
+        color: #fff;
+        padding: 10px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        
+        
+
+      }
+
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        margin: 0 10px;
+        
+      }
+
+      nav ul li a {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: all 0.2s ease-in-out;
+      }
+
+      nav ul li a:hover {
+        background-color: #fffffffb;
+        color: #333;
+        transition: all 0.2s ease-in-out;
+      }
+
+
+
+
+      /* Main Section */
+
+      main {
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        min-height: calc(100vh - 400px);
+      }
+
+      #projects {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+
+      #projects h2 {
+        margin-top: 0;
+        font-size: 2rem;
+      }
+
+      #projects ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      #projects li {
+        margin-bottom: 20px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+       
+
+
+
+
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      #projects li:hover {
+        transform: translateY(-10px);
+        transition: all 0.2s ease-in-out;
+      }
+
+      #projects h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      #about-me h2 {
+         font-size: 2rem;
+      }
+
+      #projects p {
+        margin: 0;
+      }
+
+
+      #skills h2{
+          font-size: 2rem;
+        }
+      
+      #skills ul li {
+        font-size: 1.5rem;
+        position: relative;
+      }
+        
+      #interests h2{
+          font-size: 2rem;
+        }
+        
+      #contact h2{
+          font-size: 2rem;
+        }
+
+        #contact ul li {
+        font-size: 1.5rem;
+        position: relative;
+      }
+
+        #type-content h2{
+
+          font-size: 2rem;
+        }
+        
+        #typing-text  {
+          font-size: 1.5rem;
+        }
+
+
+        #projects h3 {
+          font-size: 1.5rem;
+          
+        }
+
+        #projects p {
+          font-size: 1.2rem;
+          
+
+    
+        }
+
+        #interests ul li{
+          font-size: 1.5rem;
+        }
+      /* Footer */
+
+      footer {
+        background-color: #00000067;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+
+      footer p {
+        margin: 0;
+        font-size: 1.2rem;
+      }
+
+      /* Media Queries */
+
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 3rem;
+        }
+
+        header h2 {
+          font-size: 1.5rem;
+        }
+
+        nav ul li a {
+          font-size: 1rem;
+          padding: 10px 15px;
+        }
+
+        main {
+          padding: 20px;
+        }
+
+        #projects li {
+          margin-bottom: 10px;
+          
+        }
+
+        
+
+        
+
+      
+      }
+
+      .section-container {
+          margin-bottom: 30px; /* Adjust as needed */
+           margin-left: 0; /* Adjust as needed */
+        }
+
+       
+    </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+	<video autoplay muted loop id="video-background">
+    <source src="violet3.mp4" type="video/mp4" >
+  </video>
+  
+  <style>
+    #video-background {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+  </style>
+  
+  <center>
+  <header>
+    <center>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  <br>
+    <h1><em>Byleen Janet Roy</em></h1>
+<br>
+
+    <h2>Data Science | Cyber Security | Full Stack Developer</h2>
+  
+  </center>
+  </header>
+</center>
+  
+  <main>
+    <div  class="section-container">
+   <section id="about-me">
+  <h2><em>About Me</em></h2>
+  <p id="typing-text"></p>
+</section>
+
+<script>
+  var text = "Hello, my name is Byleen Janet Roy. I am a skilled programmer with experience in C, Java, and Python. I have strong knowledge of data science and data structures, as well as excellent communication and leadership skills. To be short , I am obssessed with Anime because It enhances my creativity to the next level. Known the basics of Cybersecurity and Ethical Hacking.";
+  var index = 0;
+
+  function typing() {
+    if (index < text.length) {
+      document.getElementById("typing-text").innerHTML += text.charAt(index);
+      index++;
+      setTimeout(typing, 50);
+    }
+  }
+
+  typing();
+</script>
+</div>
+
+<div  class="section-container">
+    <section id="skills">
+      <h2><em>Skills</em></h2>
+      <ul>
+        <li>C</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Data Science</li>
+        <li>R Programming</li>
+        <li>Network Simulator</li>
+        <li>Raspberry Pi</li>
+        <li>Embedded Systems and IoT</li>
+        <li>Data Analysis</li>
+        <li>Artificial Intelligence and Machine Learning</li>
+        
+      </ul>
+    </section>
+    
+  </div>
+
+<div class="section-container"> 
+    <section id="skills">
+      <h2><em>Internship Experiences</em></h2>
+      <ul>
+        <li>Cisco - Virtual Internship on Cybersecurity</li>
+        <li>Hackveda - Cybersecurity Internship</li>
+        <li>CodeClause - Artificial Intelligence Internship</li>
+        <li>Pantech Naan Mudhalvan - Data Science Internship</li>
+        <li>Open Weaver - Full Stack Web Development Internship</li>
+        
+      </ul>
+    </section>
+
+
+  </div>
+
+
+  <div class="section-container"> 
+
+    <section id="projects">
+      <br>
+      <h2><em>Projects</em></h2>
+      <h3><em>Project 1 - Emergency Vehicle Priority</em></h3>
+      <p id="p0">It is nothing but a project which can prioritize emergency vehicle and changes the traffic signal accordingly.</p>
+<br>
+
+      <h3><em>Project 2 - FULL STACK WEB DEVELOPMENT APPLICATION</em></h3>
+      <p id="p0">Developed a fullstack web application for making a To Do List.</p>
+      <br>
+
+      <h3><em>Project 3- AI Fake News Detector</em></h3>
+      <p id="p0">It is trained with dataset which can be used to classify whether the fed news is fake or not.</p>
+
+    </section>
+  </div>
+    <center>
+      <img src="cert1.png" alt="Data Analytics" style="width:70%; height: 70%;">   
+      </center>
+
+
+      <center>
+        <img src="cert2.png" alt="Data Analytics" style="width:80%; height: 80%;">   
+        </center>
+
+      
+
+       <div class="section-container"> 
+<section id="interests">
+    <h2><em>Interests</em></h2>
+  <ul>
+    <li>Reading books</li>
+    <li>Playing violin</li>
+    <li>Web designing</li>
+    <li>Gaming</li>
+    <li>Drawing</li>
+  </ul>
+</section>
+
+</div>
+
+<div class="section-container">   
+<section id="contact">
+        <h2><em>Contact</em></h2>
+      
+        <ul>
+          <li>Email id : Byleenjanetroy.25it@licet.ac.in </li>
+          <li>Contact Number : 8610425814</li>
+          <li><a href="www.linkedin.com/in/byleen-janet-roy-72b000250">LinkedIn Profile</a></li>
+          <li><a href="https://instagram.com/_.gravity_forgot._?igshid=YmMyMTA2M2Y=">Instagram ID</a></li>
+          
+        </ul>
+    </section>
+
+</div>
+
+
+
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Byleen Janet Roy</p>
+ <p style="text-align:center"> <em>Happyy Day &#128516;</em></p>
+  </footer>
+</body>
+</html>
