@@ -1,0 +1,2 @@
+C:/Users/Bylee/Downloads/ex02-20231213T175718Z-001/ex02/violet3.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/violet3.mp4 filter=lfs diff=lfs merge=lfs -text
